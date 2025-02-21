@@ -6,9 +6,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
     text-align: center;
     color: #333;
+    background: linear-gradient(45deg, rgb(254, 220, 225), rgb(254, 174, 174));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .container {
@@ -18,9 +21,15 @@ body {
     padding: 20px;
 }
 
+.video-container {
+    border: #bbb;
+    border-radius: 25px;
+}
+
 h1 {
     color: #e63946;
     font-size: 3em;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -42,6 +51,7 @@ button:hover {
 
 #special-message {
     background-color: #e63946;
+    font-weight: bold;
     color: white;
     padding: 15px;
     margin-top: 20px;
