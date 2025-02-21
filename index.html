@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para el amor de mi vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Felices 7 meses mi amor ❤️</h1>
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+            <img src="https://i.postimg.cc/7LSHMGjj/IMG-20250105-WA0044.jpg" style="width: 60%;">
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="https://i.postimg.cc/1tHybxmH/IMG-20250105-WA0045.jpg">
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="https://i.postimg.cc/90Qchxzj/IMG-20250112-WA0010.jpg">
+            </div>
+
+            <div class="mySlides fade">
+            <img src="https://i.postimg.cc/KzFZ9c2j/IMG-20250119-WA0016.jpg">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <br>
+
+        <button onclick="showMessage()">Click para leer un mensaje especial!</button>
+        <div class="fade" id="special-message" style="display: none;">
+            <p>Gracias por ser una persona increíble y la niña que más amo, espero que lo nuestro sea eterno.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
